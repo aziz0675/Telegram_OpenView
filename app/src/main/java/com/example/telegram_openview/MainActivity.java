@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Timer timer = new Timer();
-        //timer.scheduleAtFixedRate(new MyTimerTas(),2000,4000); // page'lar qancha vaqtda almashishi
+        timer.scheduleAtFixedRate(new MyTimerTas(),1000,2000); // page'lar qancha vaqtda almashishi
     }
 
     public class MyTimerTas extends TimerTask { // page'larni ma'lum vaqtda o'tkazish uchun
@@ -112,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void run() {
             MainActivity.this.runOnUiThread(() ->{
+
                 if (viewPager.getCurrentItem() == 0){
                     viewPager.setCurrentItem(1);
                 }else if (viewPager.getCurrentItem() == 1){
