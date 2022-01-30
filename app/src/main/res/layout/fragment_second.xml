@@ -19,6 +19,15 @@
             android:layout_height="0dp">
 
 
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lav_actionBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="telegram-icon.json"
+                app:lottie_loop="true"
+                />
 
         </LinearLayout>
 
