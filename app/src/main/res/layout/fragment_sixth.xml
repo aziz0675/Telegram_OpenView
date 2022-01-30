@@ -18,7 +18,14 @@
             android:layout_width="match_parent"
             android:layout_height="0dp">
 
-
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            android:scaleType="centerCrop"
+            app:lottie_fileName="cloud-transfer.json"
+            app:lottie_loop="true"
+            />
 
         </LinearLayout>
 

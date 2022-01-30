@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Timer timer = new Timer();
-        timer.scheduleAtFixedRate(new MyTimerTas(),2000,4000); // page'lar qancha vaqtda almashishi
+        //timer.scheduleAtFixedRate(new MyTimerTas(),2000,4000); // page'lar qancha vaqtda almashishi
     }
 
     public class MyTimerTas extends TimerTask { // page'larni ma'lum vaqtda o'tkazish uchun
